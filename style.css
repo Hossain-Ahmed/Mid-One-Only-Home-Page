@@ -1,0 +1,197 @@
+
+* {
+  box-sizing: border-box;
+ }
+.main-container{
+  width:100%;
+  height:auto;
+}
+.topbar {
+  display: flex;
+  background-color:#EC5538;
+  color: whitesmoke;
+}
+
+/* Style the navigation bar links */
+.topbar a {
+  color:#EC5538;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #f1f1f1;
+  width:50%;
+  
+}
+
+/* Container for flexboxes */
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:white;
+  height: 130px;
+  
+  
+}
+
+/* Create four equal columns */
+.column1 {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column1 {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row1 {
+    flex-direction: column;
+    
+  }
+
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#FFFFFF;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align :center;
+  padding-top: 60px ;
+  padding-right: 36px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:white;
+  color: #EC5538;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 50%;
+  }
+}
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height:400px;
+    
+    
+    
+  }
+  
+  /* Create four equal columns */
+  .column2 {
+    flex:25%;
+    text-align:left;
+    margin-left:70px;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 692px) {
+    .column2{
+      flex: 50%;
+    }
+    
+  }
+  @media screen and (max-width: 300px ) {
+    .column2{
+      flex: 100%;
+      width :100%;
+    }
+    img{
+      flex: 100%;
+      width :100%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 300px) {
+    .row2{
+      flex-direction: column;
+    }
+  }
+  /* Container for flexboxes */
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  height:600px;
+  
+}
+
+/* Create four equal columns */
+.column3{
+  flex: 25%;
+  padding: 20px;
+  background-color:#F0F0F0;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column3 {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row3 {
+    flex-direction: column;
+  }
+}
+.call{
+  width:100%;
+  height:130px;
+  background-color:#EC5538;
+  color :#ffffff;
+  padding-top: 25px;
+  padding-left: 80px;
+}
+/* Container for flexboxes */
+.row4{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#1A1E21;
+  height:300px;
+}
+
+/* Create four equal columns */
+.column4 {
+  flex: 25%;
+  padding: 10px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column4 {
+    flex: 25%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .row4 {
+    flex-direction: column;
+  }
+}
+.footer{
+  width:100%;
+  height:120px;
+  background-color:#111315;
+  padding:35px;
+  padding-left: 100px;
+}
